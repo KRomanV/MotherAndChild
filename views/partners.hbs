@@ -1,0 +1,9 @@
+<div class="container" id="container-partners">
+  {{#each partners}}
+  <div class="course">
+    <div><a href="https://www.google.com/"><img src={{this.logoLink}} class='partnerImg'></a></div>
+    <div>{{this.title}}</div>
+    <div>{{this.description}}</div>
+  </div>
+  {{/each}}
+</div>
