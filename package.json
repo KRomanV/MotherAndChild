@@ -8,7 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Andrey-Kichanov/OrderProject-.git"
+    "url": "git+https://github.com/Andrey-Kichanov/OrderProject-.git",
+    "heroku-postbuild": "npm run build"
   },
   "author": "",
   "license": "ISC",
